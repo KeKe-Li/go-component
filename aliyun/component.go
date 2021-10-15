@@ -15,10 +15,11 @@ var (
 )
 
 const (
-	// MaxItems ...
+	// MaxItems  for const
 	MaxItems = 1000
 )
 
+// Component for aliyun
 type Component struct {
 	config    *config
 	logger    *elog.Component
